@@ -1,4 +1,4 @@
-module github.com/hellojukay/hcl-demo
+module github.com/hellojukay/hcl2-demo
 
 go 1.14
 
