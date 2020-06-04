@@ -1,0 +1,14 @@
+pipeline {
+    env = {
+        "PWD" = PWD()
+    }
+    stages {
+         stage {
+             name ="first"
+             describe = "hellojukay"
+         }
+         stage {
+             name = "second"
+         }
+    }
+}
