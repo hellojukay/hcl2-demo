@@ -55,7 +55,6 @@ func main() {
 	if dg.HasErrors() {
 		log.Fatalf("parse error %s", dg.Error())
 	}
-	file.Body.JustAttributes()
 	var config Configuration
 	ctx := &hcl.EvalContext{
 		Functions: map[string]function.Function{
